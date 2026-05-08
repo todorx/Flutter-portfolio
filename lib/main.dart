@@ -305,23 +305,24 @@ class _PortfolioHomeState extends State<PortfolioHome> {
   Widget _buildProjects(BuildContext context) {
     final projects = [
       {
-        'title': 'Minimalist Habit Tracker',
-        'desc': 'A calm, data-driven tool to build routines without the noise.',
-        'tech': 'Flutter, SQLite, Riverpod',
-        'link': 'https://github.com/example/habit',
-      },
-      {
-        'title': 'Oasis UI',
+        'title': 'Developer Portfolio',
         'desc':
-            'An open-source design system focused on accessibility and whitespace.',
-        'tech': 'React, Tailwind, Storybook',
-        'link': 'https://github.com/example/oasis',
+            'A portfolio website for a developer showcasing their projects and skills.',
+        'tech': 'Flutter, Firebase',
+        'link': 'https://github.com/todorx/Flutter-Portfolio',
       },
       {
-        'title': 'Echo API',
-        'desc': 'A fast, lightweight mocking server for frontend development.',
-        'tech': 'Go, Redis',
-        'link': 'https://github.com/example/echo',
+        'title': 'Minimalist Habit Tracker',
+        'desc':
+            'A calm, simple and intuitive to build routines without the noise.',
+        'tech': 'Flutter, SQLite, Riverpod',
+        'link': 'https://github.com/todorx/Flutter-Web-Habit-Tracker',
+      },
+      {
+        'title': 'C++ OOP Projects',
+        'desc': 'A collection of object-oriented programming projects.',
+        'tech': 'C++',
+        'link': 'https://github.com/todorx/Cpp-Projects',
       },
     ];
 
