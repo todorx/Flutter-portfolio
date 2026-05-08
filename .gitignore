@@ -48,4 +48,4 @@ firebase.json
 .firebaserc
 .env
 
-.agents
+.agents/
